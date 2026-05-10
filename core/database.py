@@ -26,6 +26,8 @@ def main():
             l.list_notes()
         elif action == "nm search":
             s.search()
+        elif action == "nm --help":
+            h.helper()
         elif action == "nm exit":
             break
         else:
