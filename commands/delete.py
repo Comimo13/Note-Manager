@@ -1,7 +1,7 @@
 import json
 def delete(notes):
     try:
-        note = input(' ')
+        note = input('PS C:\\WINDOWS\\System32> ')
         notes.remove(note)
         with open('D:/Projects/Notes Manager/storage/notes.json', 'w') as file:
             json.dump(notes, file)
