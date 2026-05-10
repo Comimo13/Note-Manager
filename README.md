@@ -3,7 +3,7 @@
 A simple command-line Notes Manager written in Python.  
 This project allows you to create, list, search, and delete notes stored in a local JSON file.
 
-This is **Beta v1**, focused on basic functionality and learning project structure.
+This is **Pre-Relese**, focused on basic functionality and learning project structure.
 
 ---
 
@@ -14,6 +14,7 @@ This is **Beta v1**, focused on basic functionality and learning project structu
 - List all saved notes
 - Search for a specific note
 - Persistent storage using JSON file
+- Helper
 
 ---
 # 💻 Commands
@@ -25,6 +26,7 @@ Inside the program, you can use:
 - nm list-notes → show all notes
 - nm search → search for a note
 - nm exit → exit the program
+- nm --help → helper
 
 ---
 # 📦 Storage
@@ -44,13 +46,4 @@ File handling in Python
 Modular project structure
 Basic CLI application design
 Working with JSON data
-
----
-# 🔮 Future Improvements (planned)
-Better command parser
-Note IDs instead of plain text matching
-Improved error handling
-Search by keywords
-Maybe a simple GUI version
-
 
