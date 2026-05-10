@@ -17,7 +17,7 @@ def main():
         notes = []
 
     while True:
-        action = input(' ')
+        action = input('PS C:\\WINDOWS\\System32> ')
         if action == "nm create":
             c.create(notes)
         elif action == "nm delete":
