@@ -5,6 +5,7 @@ from commands import delete as d
 from commands import list_notes as l
 from commands import search as s
 
+from utils import helpers as h
 
 def main():
     notes = []
