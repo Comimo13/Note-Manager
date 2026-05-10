@@ -1,7 +1,7 @@
 import json
 def create(notes):
     try:
-        note = input(' ')
+        note = input('PS C:\\WINDOWS\\System32> ')
         notes.append(note)
         with open('D:/Projects/Notes Manager/storage/notes.json' , 'w') as f:
             json.dump(notes, f)
